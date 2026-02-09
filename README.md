@@ -22,7 +22,7 @@ After completing this assignment, you will be able to:
 Prerequisites
 -------------
 * You should be familiar with Ruby basics, for example, by completing the Ruby Intro or Ruby Calisthenics assignment (CHIP 2.5)
-* You should have read [ESaaS](http://www.saasbook.info) Chapter 2, "The Architecture of SaaS Applications".
+* You should have read [ESaaS](https://saasbook.info/) Chapter 2, "The Architecture of SaaS Applications".
 * You should be comfortable with basic Git usage and how to push your code to GitHub.
 * You will need "survival level" Unix command-line skills and facility with an editor to edit code files.
 
