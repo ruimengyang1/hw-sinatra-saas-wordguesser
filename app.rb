@@ -82,12 +82,14 @@ end
   end
 
   get '/win' do
+    redirect '/show' unless @game.check_win_or_lose == :win
     @wrong_guesses = @game.wrong_guesses
     @word_with_guesses = @game.word_with_guesses
     erb :win
   end
 
   get '/lose' do
+    redirect '/show' unless @game.check_win_or_lose == :lose
     @wrong_guesses = @game.wrong_guesses
     @word_with_guesses = @game.word_with_guesses
     erb :lose
